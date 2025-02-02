@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: brown">
+    <h1>hi my name is index page.</h1>
+    <h3>default iframe:-</h3>
+    <iframe src="page1.html" title="page1" loading="eager"></iframe>
+    <iframe src="page2.html" title="page2" loading="eager"></iframe>
+    <hr />
+    <h3>change border for iframe</h3>
+    <iframe
+      src="page1.html"
+      title="page1"
+      style="border: 2px solid greenyellow"
+      loading="eager"
+    ></iframe>
+    <iframe
+      src="page2.html"
+      title="page2"
+      style="border: 2px solid rebeccapurple"
+      loading="eager"
+    ></iframe>
+
+    <hr />
+    <br />
+    <br />
+    <br />
+    <br />
+    <h3>iframe with video from youtube and use lazy loading:-</h3>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/l9JhK4tMnIc?si=xeq_Zw20olHMyGGd"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </body>
+</html>
