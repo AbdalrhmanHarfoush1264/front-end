@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      td,
+      th {
+        border: 2px solid green;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- first Table -->
+    <table style="width: 50%; margin: 2px; padding: 2px">
+      <caption>
+        simple table without spanning:-
+      </caption>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Department</th>
+        <th>Salary</th>
+      </tr>
+      <tr>
+        <td>Ahmed</td>
+        <td>20</td>
+        <td>frontend</td>
+        <td>15000</td>
+      </tr>
+      <tr>
+        <td>Fares</td>
+        <td>25</td>
+        <td>frontend</td>
+        <td>20000</td>
+      </tr>
+      <tr>
+        <td>Mazen</td>
+        <td>15</td>
+        <td>backend</td>
+        <td>13000</td>
+      </tr>
+      <tr>
+        <td><b>Total</b></td>
+        <td></td>
+        <td></td>
+        <td>43000</td>
+      </tr>
+    </table>
+    <!-- second table -->
+    <table style="width: 50%; margin: 2px; padding: 2px">
+      <caption>
+        simple table with spanning :-
+      </caption>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Department</th>
+        <th>Salary</th>
+      </tr>
+      <tr>
+        <td>Ahmed</td>
+        <td>20</td>
+        <td rowspan="2">frontend</td>
+        <td>15000</td>
+      </tr>
+      <tr>
+        <td>Fares</td>
+        <td>25</td>
+        <!-- <td>frontend</td> -->
+        <td>20000</td>
+      </tr>
+      <tr>
+        <td>Mazen</td>
+        <td>15</td>
+        <td>backend</td>
+        <td>13000</td>
+      </tr>
+      <tr>
+        <td colspan="3"><b>Total</b></td>
+        <!-- <td></td>
+    <td></td> -->
+        <td>43000</td>
+      </tr>
+    </table>
+  </body>
+</html>
