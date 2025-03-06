@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p align="center">
+      <video
+        controls
+        width="270px"
+        height="480px"
+        poster="Thumb.jpg"
+        autoplay
+        muted
+      >
+        <source src="Funny.mp4" type="video/mp4" />
+        <source src="Funny.webm" type="video/webm" />
+        <track
+          src="subtitle_en.vtt"
+          kind="subtitles"
+          srclang="en"
+          label="English"
+        />
+        <track
+          src="subtitle_de.vtt"
+          kind="subtitles"
+          srclang="de"
+          label="Deutsch"
+        />
+        your browser don't support this video.
+      </video>
+    </p>
+
+    <article>
+      <p>1- لازم نضيف controls attribute عشان الفيديو يشتغل</p>
+      <p>2- عادي تضيف poster للفيديو وممكن لا</p>
+      <p>3-خاصية autoplay مش بتشتغل غير لما تضيف muted attribute</p>
+      <p>
+        4-لازم تضيف اكتر من src للفيديو لان فيه متصفحات ممكن ماتشغلش المصدرلاول
+        في تشغل المصدر الا بعده
+      </p>
+      <p>
+        ا -5-track attribute تقدر تضيف اكتر من لغة بحيث تترجمها عادي جدا بشرط
+        يكون موجود ملف الترجمة عندك
+      </p>
+      <p>
+        6- الكلام الا بين video وال closing تباعها مش بيظهر غير لو الفيديومشتغلش
+      </p>
+    </article>
+  </body>
+</html>
