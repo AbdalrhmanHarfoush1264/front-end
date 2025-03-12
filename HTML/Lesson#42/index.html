@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Validation in Html Forms:-</h1>
+    <form action="informations.html" method="post">
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+      </p>
+
+      <p>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="50" required />
+      </p>
+
+      <p>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="enter valid email !"
+        />
+      </p>
+      <p>
+        <label for="website">Website:</label>
+        <input type="url" placeholder="enter url valid!" pattern="https://*" />
+      </p>
+
+      <p>
+        <label for="password">password:</label>
+        <input type="password" name="password" id="password" minlength="5" />
+      </p>
+
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
