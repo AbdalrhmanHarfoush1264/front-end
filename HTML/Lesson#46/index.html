@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Image Maps</h1>
+    <img
+      src="computer&people.webp"
+      alt="computer&people"
+      loading="eager"
+      usemap="#workmap"
+    />
+
+    <!-- 0,0,0,0 this is for example you should write a right numbers -->
+    <map name="workmap">
+      <area
+        shape="rect"
+        coords="0,0,0,0"
+        href="people.html"
+        alt="people page"
+      />
+      <area
+        shape="circle"
+        coords="0,0,0"
+        href="computer.html"
+        alt="computer page"
+      />
+    </map>
+  </body>
+</html>
