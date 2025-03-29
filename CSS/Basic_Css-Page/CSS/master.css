@@ -1,0 +1,19 @@
+/* selector {
+    property:value1;
+    property:value2
+} */
+
+/* p {
+  color: rgb(207, 14, 14);
+  font-size: 40px;
+} */
+
+/* .my-property {
+  color: aqua;
+  font-size: 50px;
+} */
+
+#my-property {
+  color: blue;
+  font-size: 50px;
+}
