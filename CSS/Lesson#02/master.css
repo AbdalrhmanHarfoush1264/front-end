@@ -1,0 +1,8 @@
+div {
+  background-color: red;
+  background-image: url(FB_IMG_1691679703737.jpg);
+  background-repeat: no-repeat;
+  /* background-position: 100% 50%; or left center; or 25px 70px
+  /* background-size: contain; or 100px 250px; */
+  background-attachment: fixed;
+}
