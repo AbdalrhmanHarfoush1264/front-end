@@ -1,0 +1,19 @@
+div {
+  width: 500px;
+  padding: 20px;
+  margin-left: 30%;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.shape-1 {
+  background-color: blueviolet;
+}
+
+.shape-2 {
+  background-color: rgb(138, 43, 226, 0.5);
+}
+
+.shape-3 {
+  background-color: #8a2be226;
+}
