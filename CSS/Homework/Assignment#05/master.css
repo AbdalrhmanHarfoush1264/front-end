@@ -1,0 +1,28 @@
+div {
+  display: inline-block;
+  padding: 30px;
+  margin: 10px;
+  outline: 5px solid black;
+}
+
+.first {
+  border: 5px solid red;
+}
+
+.second {
+  border-top-color: blue;
+  border-bottom-color: blue;
+  border-right-color: green;
+  border-left-color: green;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.third {
+  border-top-color: red;
+  border-bottom-color: blue;
+  border-right-color: green;
+  border-left-color: yellow;
+  border-width: 5px;
+  border-style: dashed;
+}
