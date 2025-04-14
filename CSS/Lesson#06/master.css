@@ -1,0 +1,28 @@
+span {
+  background-color: #eb7b7b;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin: 50px;
+}
+
+/* 
+block 
+-- respect width,height,padding,margin
+-- take full width
+-- adding lines before and after 
+ */
+
+/* 
+ inline
+ -- don't respect width,height
+ -- respect padding,margin {just left and right}
+ -- don't adding lines before and after
+  */
+
+/* 
+  inline-block
+  -- respect width,height,padding,margin
+  */
