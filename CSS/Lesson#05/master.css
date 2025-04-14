@@ -1,0 +1,7 @@
+div {
+  width: 250px;
+  background-color: #eee;
+  /* padding: 20px;
+  border: 20px solid greenyellow; */
+  outline: 20px solid yellowgreen;
+}
