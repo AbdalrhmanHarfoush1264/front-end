@@ -1,0 +1,27 @@
+.one,
+.two,
+.three,
+.age {
+  padding: 5px;
+  width: 150px;
+  margin-left: 3px;
+  background-color: #6de9d8;
+  display: inline-block;
+  color: rgb(189, 21, 152);
+}
+
+.one {
+  border-left: 3px solid green;
+}
+
+.two {
+  border-left: 3px solid red;
+}
+
+.three {
+  border-left: 3px solid black;
+}
+
+.age {
+  border-left: 3px solid rgb(19, 16, 196);
+}
