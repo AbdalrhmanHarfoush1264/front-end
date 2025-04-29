@@ -1,0 +1,9 @@
+div {
+  background-color: #ec1313;
+  width: 300px;
+  height: 150px;
+  margin-left: 400px;
+  overflow: auto;
+  /* overflow-x: hidden; */
+  /* overflow-y: hidden; */
+}
