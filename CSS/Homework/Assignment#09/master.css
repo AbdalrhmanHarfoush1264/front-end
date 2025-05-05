@@ -1,0 +1,5 @@
+div {
+  font-size: 100px;
+  text-shadow: 3px 3px 0px red, 9px 9px 0px rgb(87, 97, 245),
+    15px 15px 0px rgba(241, 9, 191, 0.411);
+}
