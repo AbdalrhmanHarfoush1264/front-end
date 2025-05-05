@@ -1,0 +1,10 @@
+a {
+  margin-left: 50%;
+  margin-top: 50px;
+  padding: 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+  background-color: aqua;
+  color: azure;
+  border-bottom: 5px solid rgb(1, 60, 68);
+}
