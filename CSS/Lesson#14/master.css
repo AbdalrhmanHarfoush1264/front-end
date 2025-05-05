@@ -1,0 +1,10 @@
+div {
+  background-color: #eee;
+  width: 200px;
+  /* white-space: nowrap; */
+  /* letter-spacing: 12px;
+  text-indent: 150px;
+  line-height: 4;
+  word-spacing: 10px; */
+  word-break: break-all;
+}
