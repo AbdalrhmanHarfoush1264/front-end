@@ -1,0 +1,9 @@
+div {
+  background-color: aqua;
+  text-align: center;
+  direction: rtl;
+}
+
+img {
+  vertical-align: middle;
+}
